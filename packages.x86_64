@@ -128,13 +128,8 @@ xl2tpd
 zsh
 
 # Zen Kernel
-<<<<<<< HEAD
 linux-zen
 linux-zen-headers
-=======
-# linux-zen
-# linux-zen-headers
->>>>>>> a764ef4a8624bbd5110a4f3fa3a587cff59a9380
 
 # Desktop env
 plasma-meta
@@ -242,7 +237,6 @@ python
 bash-completion
 tlp
 powertop
-<<<<<<< HEAD
 xterm
 
 # sec
@@ -268,7 +262,7 @@ net-tools
 reflector
 
 
-# calamares
+# calamares settings
 efibootmgr
 gtk-update-icon-cache
 hwinfo
@@ -287,47 +281,3 @@ qt6-5compat
 flatpak
 chaotic-mirrorlist
 chaotic-keyring
-=======
-
-
-# sec
-ufw
-gufw
-timeshift
-baobab
-grsync
-cryptsetup
-
-# sys
-os-prober
-ntfs-3g
-exfat-utils
-mlocate
-xdg-utils
-lsb-release
-inxi
-hwinfo
-acpi
-acpid
-net-tools
-reflector
-
-
-# calamares
-efibootmgr
-gtk-update-icon-cache
-hwinfo
-icu
-kpmcore
-libpwquality
-kcrash5
-qt5-svg
-squashfs-tools
-yaml-cpp
-#calamares
-qt6-5compat
-
-# god level - repos
-yay
-flatpak
->>>>>>> a764ef4a8624bbd5110a4f3fa3a587cff59a9380
