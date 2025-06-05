@@ -4,7 +4,9 @@ arch-install-scripts
 archinstall
 b43-fwcutter
 base
+bcachefs-tools
 bind
+bolt
 brltty
 broadcom-wl
 btrfs-progs
@@ -28,8 +30,8 @@ ethtool
 exfatprogs
 f2fs-tools
 fatresize
+foot-terminfo
 fsarchiver
-gnu-netcat
 gpart
 gpm
 gptfdisk
@@ -43,6 +45,7 @@ iw
 iwd
 jfsutils
 kitty-terminfo
+ldns
 less
 lftp
 libfido2
@@ -77,6 +80,7 @@ nvme-cli
 open-iscsi
 open-vm-tools
 openconnect
+openpgp-card-tools
 openssh
 openvpn
 partclone
@@ -89,12 +93,12 @@ pv
 qemu-guest-agent
 refind
 reflector
-reiserfsprogs
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
 screen
 sdparm
+sequoia-sq
 sg3_utils
 smartmontools
 sof-firmware
@@ -106,6 +110,7 @@ tcpdump
 terminus-font
 testdisk
 tmux
+tpm2-tools
 tpm2-tss
 udftools
 usb_modeswitch
@@ -122,71 +127,152 @@ xfsprogs
 xl2tpd
 zsh
 
+# Zen Kernel
+# linux-zen
+# linux-zen-headers
 
-# Desktop Environment
-
+# Desktop env
 plasma-meta
 sddm
 xorg
 
-# Video Driver
-
-xf86-video-intel
-xf86-video-amdgpu
-xf86-video-qxl
-
-# Input
-
-xf86-input-libinput
-xf86-input-synaptics
-
-# Packages
-
-git
-base-devel
-linux-headers
-neofetch
-nano
-mousepad
-gwenview
-kate
-dolphin
-mpv
-firefox
-thunar
-vim
-lsd
-thunar
-ranger
-cmus
+# Network
 networkmanager
-gparted
-gvfs
-gvfs-smb
-xdg-user-dirs
+network-manager-applet
+bluez
+bluez-utils
+blueman
+modemmanager
+mobile-broadband-provider-info
+usb_modeswitch
+
+# Pacman 
+fakeroot
+pacman-contrib
+debugedit
+patch
+binutils
+gcc
+make
+cups
+system-config-printer
 
 # Sound
-
 pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pipewire-zeroconf
+pavucontrol
+alsa-firmware
+alsa-plugins
+alsa-utils
+sof-firmware
+
+# Drivers
+xf86-video-intel
+xf86-video-nouveau
+xf86-video-amdgpu
+linux-firmware
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-elographics
+xf86-input-libinput
+xorg-xinput
+xorg-server
+xorg-xinit
+mesa
+vulkan-intel
+vulkan-radeon
+libva-intel-driver
+libva-mesa-driver
+
+# Gaming
+gamemode
 
 
+# japanse lang support
+adobe-source-han-sans-jp-fonts
+adobe-source-han-serif-jp-fonts
+noto-fonts-cjk
+otf-ipafont
+otf-ipaexfont
+ttf-sazanami
+ttf-vlgothic
+
+# fonts
+noto-fonts
+ttf-dejavu
+ttf-liberation
+ttf-hack
+ttf-font-awesome
+breeze-icons
+breeze-gtk
+grub-theme-vimix
 
 
+# terminal
+nano
+git
+gparted
+mpv
+gvfs
+gvfs-smb
+xdg-user-dirs
+feh
+rofi
+dmenu
+htop
+neofetch
+xarchiver
+p7zip
+unrar
+unzip
+wget
+curl
+firefox
+gnome-disk-utility
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+python
+bash-completion
+tlp
+powertop
+flatpak
 
+# sec
+ufw
+gufw
+timeshift
+baobab
+grsync
+cryptsetup
 
+# sys
+os-prober
+ntfs-3g
+exfat-utils
+mlocate
+xdg-utils
+lsb-release
+inxi
+hwinfo
+acpi
+acpid
+net-tools
+reflector
+grub-customizer
 
-
-
-
-
-
-
-
-
-
-
-
+# calamares
+efibootmgr
+gtk-update-icon-cache
+hwinfo
+icu
+kpmcore
+libpwquality
+kcrash5
+qt5-svg
+squashfs-tools
+yaml-cpp
+#calamares
+qt6-5compat
