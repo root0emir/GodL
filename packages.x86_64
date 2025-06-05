@@ -279,5 +279,5 @@ qt6-5compat
 # god level - repos
 # yay
 flatpak
-chaotic-mirrorlist
-chaotic-keyring
+#chaotic-mirrorlist
+#chaotic-keyring
