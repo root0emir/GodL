@@ -58,7 +58,7 @@ touch /etc/catos-motd
 ln -s /etc/catos-motd /etc/motd
 cat > "/etc/motd" <<- _EOF_
 
-Welcome To God Level Arch
+Welcome To God Level Arch!
 
 _EOF_
 
