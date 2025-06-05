@@ -223,7 +223,6 @@ feh
 rofi
 dmenu
 htop
-neofetch
 xarchiver
 p7zip
 unrar
@@ -261,7 +260,7 @@ acpi
 acpid
 net-tools
 reflector
-grub-customizer
+
 
 # calamares
 efibootmgr
