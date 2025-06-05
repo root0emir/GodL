@@ -276,7 +276,7 @@ networkmanager-vpnc
 numlockx
 #packagekit-qt5
 plasma-firewall
-plasma-systemmonitor 
+#plasma-systemmonitor 
 skanlite
 svgpart
 sweeper
@@ -303,7 +303,7 @@ linux-zen-headers
 firefox
 
 ### Printing
-cups-pdf cups-pk-helper
+#cups-pdf cups-pk-helper
 
 ### Nvidia graphics driver
 #nvidia nvidia-settings bbswitch
@@ -346,3 +346,4 @@ whois
 wireguard-tools
 zip
 zsh-autosuggestions
+xterm
